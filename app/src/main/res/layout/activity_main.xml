@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="20dp"
+    android:paddingLeft="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="KALKULATOR BIDANG DATAR"
+        android:textStyle="bold"
+        android:fontFamily="monospace"
+        android:textSize="40dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/persegi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="persegi"
+        android:text="PERSEGI"/>
+
+    <Button
+        android:id="@+id/segitiga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="segitiga"
+        android:text="SEGITIGA"/>
+
+    <Button
+        android:id="@+id/lingkaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:onClick="Lingkaran"
+        android:text="LINGKARAN"/>
+
+</LinearLayout>
