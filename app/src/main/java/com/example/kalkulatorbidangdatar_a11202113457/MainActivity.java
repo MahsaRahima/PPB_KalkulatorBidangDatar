@@ -13,33 +13,33 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-            Button segitiga = (Button) findViewById(R.id.segitiga);
+        Button segitiga = (Button) findViewById(R.id.segitiga);
 
-            segitiga.setOnClickListener(new View.OnClickListener() {
+        segitiga.setOnClickListener(new View.OnClickListener() {
 
-                public void onClick(View view) {
-                    Intent segitiga = new Intent(MainActivity.this, Segitiga.class);
-                    startActivity(segitiga);
-                }
-            });
-            Button persegi = (Button) findViewById(R.id.persegi);
+            public void onClick(View view) {
+                Intent segitiga = new Intent(MainActivity.this, Segitiga.class);
+                startActivity(segitiga);
+            }
+        });
+        Button persegi = (Button) findViewById(R.id.persegi);
 
-            persegi.setOnClickListener(new View.OnClickListener() {
+        persegi.setOnClickListener(new View.OnClickListener() {
 
-                public void onClick(View view) {
-                    Intent persegi = new Intent(MainActivity.this, Persegi.class);
-                    startActivity(persegi);
-                }
-            });
-            Button Lingkaran = (Button) findViewById(R.id.lingkaran);
+            public void onClick(View view) {
+                Intent persegi = new Intent(MainActivity.this, Persegi.class);
+                startActivity(persegi);
+            }
+        });
+        Button Lingkaran = (Button) findViewById(R.id.lingkaran);
 
-            Lingkaran.setOnClickListener(new View.OnClickListener(){
+        Lingkaran.setOnClickListener(new View.OnClickListener(){
 
-                public void onClick(View view) {
-                    Intent lingkaran = new Intent(MainActivity.this, Lingkaran.class);
-                    startActivity(lingkaran);
-                }
-            });
+            public void onClick(View view) {
+                Intent lingkaran = new Intent(MainActivity.this, Lingkaran.class);
+                startActivity(lingkaran);
+            }
+        });
 
-        }
+    }
 }
